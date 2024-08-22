@@ -1,0 +1,1 @@
+# liteyukibot-plugin-antidislink

@@ -1,0 +1,26 @@
+[project]
+name = "liteyukibot-plugin-antidislink"
+version = "0.1.0"
+description = "防止群友断联化"
+authors = [
+    {name = "snowykami", email = "snowykami@outlook.com"},
+]
+dependencies = [
+    "liteyukibot>=6.3.9",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT & LSO"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[[tool.pdm.source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+include_packages = ["liteyukibot"]
