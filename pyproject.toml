@@ -24,3 +24,6 @@ distribution = true
 name = "pypi"
 url = "https://pypi.org/simple"
 include_packages = ["liteyukibot"]
+
+[tool.pdm.scripts]
+dev = "python main.py"
